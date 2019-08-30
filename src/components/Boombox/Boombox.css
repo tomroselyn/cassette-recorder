@@ -1,0 +1,33 @@
+.boombox-handle {
+    height: 100px;
+}
+
+.boombox-container {
+    background-color: dimgray;
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto;
+}
+
+.boombox-top-panel {
+    background-color: green;
+    width: 100%;
+    height: 80px;
+}
+
+.boombox-speaker {
+    background-color: black;
+    color: white;
+    width: 380px;
+    height: 380px;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.speaker-left {
+    float: left;
+}
+
+.speaker-right {
+    float: right;
+}
