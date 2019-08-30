@@ -1,0 +1,38 @@
+.button {
+    /* float: left; */
+    display: inline-block;
+    height: 100%;
+    width: calc(1/6 * 100%);
+}
+
+.filterbutton {
+    background-color: lightslategray;
+    display: inline-block;
+    height: 80%;
+    margin: 7px;
+    width: calc(1/6 * 100%);
+}
+
+.record {
+    background-color: red;
+}
+
+.play {
+    background-color: blue;
+}
+
+.rewind {
+    background-color: green;
+}
+
+.fastforward {
+    background-color: yellow;
+}
+
+.stopeject {
+    background-color: orange;
+}
+
+.pause {
+    background-color: purple;
+}

@@ -3,19 +3,21 @@ import './Boombox.css';
 
 import TopPanel from './TopPanel.js';
 import Speaker from './Speaker.js';
+import Cassette from '../Cassette/Cassette.js';
+import BottomPanel from './BottomPanel';
 
 function BoomboxContainer() {
     return (
         <div>
             <div className="boombox-handle">
-                
+
             </div>
             <div className="boombox-container">
                 <TopPanel />
                 <Speaker position="speaker-left" />
-                <p>cassette</p>
+                <Cassette />
                 <Speaker position="speaker-right" />
-                <p>cassette buttons</p>
+                <BottomPanel />
             </div>
         </div>
     );
